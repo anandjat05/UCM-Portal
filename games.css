@@ -1,0 +1,63 @@
+
+body{margin:0;}
+
+#main{position:relative;
+}
+/*For games section*/
+#home{background-color:black;
+                height:600px;
+				width:1000px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:22%;
+				left:18%;
+				background-color: rgba(0,0,0,0.42);
+				
+	}
+/*for games section*/	
+#game{
+	height:300px;
+				width:800px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:10%;
+				left:15%;
+	
+}				
+				
+
+/*for games section results*/
+#resultPara{margin:0;
+           font-family:patronam;
+		   font-size:20px;
+		   font-weight:bolder;
+		   color:white;
+		   margin-top:50px;
+		   padding-left:10%;}
+		   
+/*for games section userInput*/		   
+#userInputText {border-radius:5px;
+       width:170px;
+	   height:27px;
+	   font-family:patronam;
+	   font-size:16px;
+	   font-weight:normal;
+	   color:black;
+	   }		   
+/*for games section submit button*/
+#resultButton{border-radius:15px;
+              color:black; 
+			  height:35px; 
+			  width:200px;
+			  margin-top:25px;
+			  margin-left: 520px;
+			  }
+/*for games section result text*/		   
+#text{
+	color:white;
+	  font-family:patronam;
+	  font-size:25px;
+	  font-weight:bolder;
+}

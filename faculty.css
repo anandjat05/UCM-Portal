@@ -1,0 +1,36 @@
+
+body{margin:0;}
+
+#main{position:relative;
+}
+/*For home background section*/
+#home{background-color:black;
+                height:600px;
+				width:1000px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:22%;
+				left:18%;
+				background-color: rgba(0,0,0,0.42);
+				
+	}
+/*for display section*/	
+			
+#faculty{
+	height:300px;
+				width:800px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:10%;
+				left:15%;
+	
+}					
+table{
+	color:white;
+	border:1px solid;
+}
+caption{
+	color:black;
+}

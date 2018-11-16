@@ -1,0 +1,52 @@
+/*Created By Ashwani Koul
+Student ID:- 700671753
+*/
+
+/*Style Created For Background Image*/
+.img{
+			background-image: url('bg.jpg');
+			height:0%;
+			background-position:center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index:10;
+			opacity:0.9;
+			font-family:'Source Sans Pro', sans-serif;
+			background:linear-gradientrgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+			)
+							
+		} 
+		
+			
+/*Style Created For Text Wrapper Class*/			
+#text-wrapper{color:#663300;
+			font-family:arial;
+			font-size:15px;
+			font-weight:bolder;
+			align:center;			
+		}
+		
+/*Style Created For Text Wrapper Class*/		
+#text-wrapper h1, h2,h3,h4
+		
+		{color:black !important;
+		font-size: 1.5rem;
+		white-space: nowrap;
+		font-size: 30px
+			}
+/*Style Created For infoSection*/		
+.infoQuestions{
+			width:355px;
+			float:right;
+			position:absolute;
+			top:80px;
+			right:0;
+			color:black;
+		}
+		
+	
+		
+
+
+

@@ -1,0 +1,34 @@
+<div class="book-preview-container">
+			<div class="book-preview">
+				<div class="preview-cover">
+					<div class="item-cover">
+						<div class="image size-ad">
+							<a class="link" href="https://www.amazon.com/gp/product/178646635X/ref=s9_acsd_simh_bw_c_x_2_w?pf_rd_m=ATVPDKIKX0DER&pf_
+							rd_s=merchandised-search-3&pf_rd_r=ZQ88TRNQ5ME5JD3THYYY&pf_rd_r=ZQ88TRNQ5ME5JD3THYYY&pf_rd_t=101&pf_rd_p=fe185ec9-c8f5-44c0-897e
+							-4c0bde93268c&pf_rd_p=fe185ec9-c8f5-44c0-897e-4c0bde93268c&pf_rd_i=283155">
+								<img class = "shadow-lg" src = "41es2XGH46L._AC_SR201,266_.jpg" alt = "Cover Page of Mastering Tableau book 10 " >
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class = "preview-info">
+					<div class = "preview-name">
+					</div>
+					<a href="https://www.amazon.com/gp/product/178646635X/ref=s9_acsd_simh_bw_c_x_2_w?pf_rd_m=ATVPDKIKX0DER&pf_
+							rd_s=merchandised-search-3&pf_rd_r=ZQ88TRNQ5ME5JD3THYYY&pf_rd_r=ZQ88TRNQ5ME5JD3THYYY&pf_rd_t=101&pf_rd_p=fe185ec9-c8f5-44c0-897e
+							-4c0bde93268c&pf_rd_p=fe185ec9-c8f5-44c0-897e-4c0bde93268c&pf_rd_i=283155" title = "Read book the Mastering Tableau 10">Mastering Tableau 10
+					</a>
+					<div class="preview-author preview-overflow">
+					by
+					<span class="list">
+						<a href = "https://www.amazon.com/Joshua-N.-Milligan/e/B00YVFLM8Y/ref=dp_byline_cont_book_1" title = "Joshua N Milligan book">
+						Joshua N Milligan
+						</a>
+					</span>
+					</div>
+				</div>
+				<div class = "clear"></div>
+
+			</div>
+		</div>
+		

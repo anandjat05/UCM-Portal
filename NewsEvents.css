@@ -1,0 +1,457 @@
+/*Created By Ashwani Koul*/
+/*Student ID:- 700671753*/
+
+/*Style Created For Body*/
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	background-size: 100%;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#DEB887;
+}
+/*Style Created For MainContainer Class*/
+#maincontainer{
+	width: 100%; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+	float: left;
+	
+}
+/*Style Created For Left Section Class*/
+#left_section {
+	float: left;
+	width: 20%;
+}
+/*Style Created For Right Section Class*/
+#right_section {
+	float: left;
+	width: 70%;
+	margin-right:5%;
+}
+/*Background Color Black For the Top of the page And For Image LOGO*/
+	.baseline img{
+	width: 1350px;
+	height: 200px;
+	filter: brightness(1);
+	opacity:1;
+
+	}
+	.baseline{
+	width: 1300px;
+	height: 200px;
+	
+	}
+	/*Style Created For UCMInformation*/
+	#UCMInformation{
+		text-align:right;
+			
+	}
+	/* Style For Heading University of central missouri*/
+	.txtdiv h1{
+		position:absolute;
+		font-size:45px;
+		color:white;
+		font-style:italic;
+		top:4em;
+		left:1em;
+		
+	}
+	/* Style For Heading University of central missouri*/
+	.txtdiv h2{
+		position:absolute;
+		font-size:35px;
+		color:white;
+		font-style:italic;
+		top:4em;
+		right:30em;
+		
+	}
+/*Style For News & Events*/
+	.NewsEvents{
+		color:red;
+	}
+	
+	
+/*For Contact NewsEvents*/
+	.NewsEvents a{
+		color:#800000;
+		font-size:1em;
+	}
+	.Contact h3,
+	.Contact h4{
+		display:inline;
+		color:red;
+		font-size:1em;
+	}
+	.Contact h4,
+	.Contact p{
+	color:black;
+	
+	}
+	
+	.NewEventsLink1{
+		margin-left:30%;
+	}
+	
+	.details{
+		margin-left:10%;
+		margin-right:10%;
+	}
+/*Putting Borders in Div for Events.*/	
+	.NewsEvents {
+		border-style: solid;
+		border-width:5px;
+		width:300px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}
+	
+		
+	
+/*Style For News & Events 2*/
+	.NewsEvents2 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents2 h4,
+	.NewsEvents2 p{
+		color:black;
+	}
+	.NewsEvents2 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events.*/	
+	.NewsEvents2 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}
+/*Style For News & Events 3*/	
+	.NewsEvents3 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents3 h4,
+	.NewsEvents3 p{
+		color:black;
+	}
+	.NewsEvents3 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events.*/	
+	.NewsEvents3 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}
+/*Style For News & Events 4*/		
+	.NewsEvents4 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents4 h4,
+	.NewsEvents4 p{
+		color:black;
+	}
+	.NewsEvents4 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events.*/	
+	.NewsEvents4 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}	
+/*Style For News & Events 5*/		
+	.NewsEvents5 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents5 h4,
+	.NewsEvents5 p{
+		color:black;
+	}
+	.NewsEvents5 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events.*/	
+	.NewsEvents5 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}	
+	
+/*Style For News & Events 6*/		
+	.NewsEvents6 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents6 h4,
+	.NewsEvents6 p{
+		color:black;
+	}
+	.NewsEvents6 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events 6.*/	
+	.NewsEvents6 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}
+/*Style For News & Events 7*/		
+	.NewsEvents7 h3,h4{
+		display:inline;
+		color:red;
+		
+	}
+	.NewsEvents7 h4,
+	.NewsEvents7 p{
+		color:black;
+	}
+	.NewsEvents7 a{
+		color:#800000;
+		font-size:0.9em;
+	}
+/*Putting Borders in Div for Events 7.*/	
+	.NewsEvents7 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+	}
+/*Putting style For Video1.*/	
+	.Video1 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;		
+	}	
+	.Video1 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+/*Putting style For Video2.*/	
+	.Video2 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;	
+		
+	}	
+	.Video2 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+	
+/*Putting style For Video3.*/	
+	.Video3 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;		
+	}	
+	.Video3 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+	
+/*Putting style For Video4.*/	
+	.Video4 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;		
+	}	
+	.Video4 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+		
+/*Putting style For Video5.*/	
+	.Video5 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;		
+	}	
+	.Video5 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+	
+/*Putting style For Video6.*/	
+	.Video6 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;		
+	}	
+	.Video6 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+	
+/*Putting style For Video7.*/	
+	.Video7 {
+		border-style: solid;
+		border-width:5px;
+		width:500px;
+		color:gray;
+		padding:1px;
+		height:200px;
+		
+	}	
+	.Video7 h3{
+		font-size:1.3em;
+		color:#800000;
+	}
+/*Used to place video next to UCM news.*/			
+	.SideBySide1{
+	display: flex;
+	}
+	.NewsEvents{
+	width:500px;
+	}
+	.Video1{
+	flex-grow:1;
+	}
+/*Used to place video next to UCM news.*/			
+	.SideBySide2{
+	display: flex;
+	}
+	.NewsEvents2{
+	width:500px;
+	}
+	.Video2{
+	flex-grow:1;
+	}
+
+/*Used to place video next to UCM news.*/			
+	.SideBySide3{
+	display: flex;
+	}
+	.NewsEvents3{
+	width:500px;
+	}
+	.Video3{
+	flex-grow:1;
+	}
+	
+/*Used to place video next to UCM news.*/			
+	.SideBySide4{
+	display: flex;
+	}
+	.NewsEvents4{
+	width:500px;
+	}
+	.Video4{
+	flex-grow:1;
+	}
+/*Used to place video next to UCM news.*/			
+	.SideBySide5{
+	display: flex;
+	}
+	.NewsEvents5{
+	width:500px;
+	}
+	.Video5{
+	flex-grow:1;
+	}
+/*Used to place video next to UCM news.*/			
+	.SideBySide6{
+	display: flex;
+	}
+	.NewsEvents6{
+	width:500px;
+	}
+	.Video6{
+	flex-grow:1;
+	}	
+/*Used to place video next to UCM news.*/			
+	.SideBySide7{
+	display: flex;
+	}
+	.NewsEvents7{
+	width:500px;
+	}
+	.Video7{
+	flex-grow:1;
+	}
+/*Style Created For Menu Class*/
+.menu {
+	width: 100%;
+}
+.menu li{
+	list-style: none;
+	height: 30px;
+	display: block;
+	background-color: black;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 30px;
+	padding-top: 7px;
+	margin-top: 0.5%;
+	
+}
+
+.menu a , .forum_menu a {
+	color: #fff;
+	text-decoration: none;
+}
+.menu a:hover , .forum_menu a:hover{
+	color: #f08661;
+}
+
+.button{
+	
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 20px;
+	width:100%;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Created By Ashwani Koul
+			Student ID 700671753-->		
+		<title>Student Enrollment Form</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="studentEnrollment.js"></script>
+		<link rel="stylesheet" href="studentEnrollment.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--BootStrap Start-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			
+	</head>
+	<body>
+		<div class="img">
+		<!--Navigation Starts-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.php">UCM</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.php">Home</a></li>
+					<li><a href="gallery.php">UCM Gallery</a></li>
+					<li><a href="login.html">New Student</a></li>
+					<li><a href="faculty.php">UCM Faculty</a></li>
+					<li><a href="ShuttleService.html">Shuttle Schedule</a></li>
+					<li><a href="NewsEvents.html">Events & News</a></li>
+					<li><a href="bookPage.html">Books</a></li>
+					<li><a href="games.php">Games</a></li>
+					<li><a href="teamNew.php">Team</a></li>
+				</ul>
+			</div>
+		</nav>
+			<div class ="signUp">
+			<!--Form Created For Registration-->
+				<form name="registration" method="GET" action="studentEnrollmentConfirm.php" onsubmit = "return validation()">
+						<h1>UCM Shuttle Service Form</h1>
+						<hr>
+					<div>
+						<input type = "text" name = "fName" id = "fName" placeholder = "Your First Name">
+						<input type = "text" name = "lName" id = "lName" placeholder = "Your Last Name">
+						<span id = "errorFname" class ="error" ></span>
+						<span id = "errorLname" class ="error" ></span>
+					</div>
+					<div>
+						<input type = "text" name = "email" id = "email" placeholder = "Your UCM Email ">
+						<span id = "errorEmail" class ="error" ></span>
+					</div>
+					<div>
+						<input type = "text" maxlength="9" name = "ucmId" id = "ucmId" placeholder = "Your UCM Id (700XXXXXX)">
+						<span id = "errorId" class ="error" ></span>
+					</div>	
+					</br>
+					<p>
+					<!--Creating Radio Button-->
+						<input type = "radio"  name = "gender" value = "Male" required> Male</br>
+						<input type = "radio"  name = "gender" value = "Female" required> Female</br>
+						<input type = "radio"  name = "gender" value = "Other" required> Other<br>
+						</br>
+					</p>
+					<!--Creating Checkbox-->
+						<input type ="checkbox" required> UCM Central Pass For Semester  
+						</br>
+						<input type ="checkbox" required>  I Accept Terms and Conditions <br>
+						</br>
+						<input type ="submit" name = "submit" id = "submit" value = "Create an Account">
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>

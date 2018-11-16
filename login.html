@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Created by Anand Jat
+		Id: 700673474 -->
+		<title>Student Login</title>
+		<meta charset = "utf-8"/>
+		<script type = "text/javascript" src = "login.js"></script>
+		<link rel = "stylesheet" href = "login.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--bootstrap starts--> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+	<body>
+		<div class = "img">
+		<!--navigation bar started-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.php">UCM</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.php">Home</a></li>
+					<li><a href="gallery.php">UCM Gallery</a></li>
+					<li><a href="login.html">New Student</a></li>
+					<li><a href="faculty.php">UCM Faculty</a></li>
+					<li><a href="ShuttleService.html">Shuttle Schedule</a></li>
+					<li><a href="NewsEvents.html">Events & News</a></li>
+					<li><a href="bookPage.html">Books</a></li>
+					<li><a href="games.php">Games</a></li>
+					<li><a href="teamNew.php">Team</a></li>
+				</ul>
+			</div>
+		</nav>
+			<div class ="signIn">
+				<form method = "post" action = "login.php" onsubmit = "return validation()">
+					<!--Login Form which is having two input box -->
+					<h1>UCM Student Login</h1>
+					<hr>
+					<input type = "text" maxlength="9" name = "ucmId" id = "ucmId" placeholder="Your UCM Id (700XXXXXX)"><br>
+					<span id = "errorId" class ="errorId" ></span>
+					<input type = "password" name = "password" id = "password" placeholder="Enter your Password">
+					<span id = "errorPassword" class ="errorPassword" ></span>
+					<br>
+					<input type ="submit" id = "Login" value = "Login">
+					<input type ="reset" id = "reset" value = "Reset">
+		
+					<div class = "anchor">
+							New Here?<a href ="studentEnrollment1.html"> Sign Up Now</a><br><br>
+					</div>
+					<div class = "copyRight">
+						© Ucm Sign-In Form. All Right Reserved | Design by Anand Jat
+					</div>
+				</form>	
+			</div>
+		</div>	
+	</body>
+</html>

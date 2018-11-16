@@ -1,0 +1,41 @@
+/*Created By: Abhideep Dharga 
+	ID:700651014 */
+/*css for body*/
+body, html {
+    height: 100%;
+}
+/*CSS for background image used*/
+.bg { 
+    /* The image used */
+    background-image: url('ucmHome.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	z-index:10;
+}                    
+ 
+/*css for Text used*/
+#text-wrapper{color:white;
+	  font-family:patronam;
+	  font-size:45px;
+	  font-weight:bolder;
+	  text-align:center;
+	  padding-top:10%;
+	  align:center;
+	 }
+/*css for UCM logo used*/
+#logo {
+	padding-left:35%;
+	padding-top:5;
+}	
+/*css for caption used with Image*/
+.caption {
+    text-align:center; 
+       color: red !important;
+	
+}	

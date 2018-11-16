@@ -1,0 +1,89 @@
+
+body, html {
+    height: 100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url('about.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	
+}
+.bg h1 {
+	z-index: 2;
+	color: #2c3e50;
+	font-size: 40px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	padding: 3%;
+	text-align:center;
+	color: white;
+	
+}
+.picture{
+		display :inline-block;
+		margin: 0 30px;
+		width: 160px;
+		height:160px;
+		overflow: hidden;
+		border-radius:50%;
+}
+.picture img{
+	width: 100%
+}
+
+#text-wrapper{color:white;
+	  font-family:patronam;
+	  font-size:25px;
+	  font-weight:bolder;
+	  text-align:center;
+	  padding-top:5%;
+	  
+	 }
+#teamDetail{
+	padding-top:5%;
+	padding-left:10%;
+}
+
+
+#home{background-color:black;
+                height:350px;
+				width:400px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:35%;
+				left:5%;
+				background-color: rgba(0,0,0,0.42);
+				
+				}
+				
+#home1{background-color:black;
+                height:350px;
+				width:400px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:35%;
+				left:35%;
+				background-color: rgba(0,0,0,0.42);
+				
+				}
+#home2{background-color:black;
+                height:350px;
+				width:400px;
+				border-radius:25px;
+				position:absolute;
+				display:block;
+				top:35%;
+				left:65%;
+				background-color: rgba(0,0,0,0.42);
+				
+				}				
